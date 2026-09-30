@@ -16,6 +16,6 @@ for i in range(n):
         
 print(n)
 print(mistake)
-
+print(uplimit)
 print(f'{max(templist):.1f}')
 print(f'{sum(templist)/len(templist):.1f}')
