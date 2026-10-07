@@ -29,6 +29,7 @@ def above_average(names,scores):
     return result
         
 print(winner(names, scores))   
+print (average(scores))
 
 
             
