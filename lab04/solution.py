@@ -14,7 +14,7 @@ def ranking(names,scores):
     result = []
     for i in range(len(names)):
         result.append((scores[i],names[i]))
-    result.sort(reverse=True)
+    result.sort(key=lambda x: -x[0])
     answer=[]
     for x in result:
         answer.append(x[1])
