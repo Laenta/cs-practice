@@ -30,7 +30,8 @@ def above_average(names,scores):
         
 print(winner(names, scores))   
 print (average(scores))
-
+print(ranking(names,scores))
+print(above_average(names,scores)) 
 
             
     
