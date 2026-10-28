@@ -33,4 +33,4 @@ def column_range(matrix, column):
     if arr.size == 0:
         return 0.0
     col = arr[:, column]
-    return 0 
+    return round(float(col.max() - col.min()), 6)
