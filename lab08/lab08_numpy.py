@@ -93,3 +93,4 @@ print("Исходный массив hours:", hours)
 
 changed_matrix = matrix.copy()
 changed_matrix
+///
