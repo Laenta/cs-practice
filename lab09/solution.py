@@ -33,4 +33,4 @@ def cap_above(values: list[float], limit: float) -> list[float]:
 def celsius_to_fahrenheit(values: list[float]) -> list[float]:
     arr = np.asarray(values, dtype=float)
     fahrenheit = arr * 9 / 5 + 32
-
+    return fahrenheit
